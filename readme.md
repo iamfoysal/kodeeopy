@@ -1,11 +1,15 @@
-1. pipenv install cmnd - "pip install pipenv"
+1. pipenv install Command - "pip install pipenv"
 2. virtual environment install and activate - "pipenv shell" 
 3. then install Django - "pipenv install django  your_version"
+4. install mysqlclient - "pipenv install mysqlclient "
 
-
-#How to create vitrual envrironment with pipenv
+#Create virtual environment with pipenv
 ###we should follow this doc
 #### write some commands
-     pipenv install Command  
-     - "pip install pipenv"
-    -
+ ##pipenv install Command  
+     -  pip install pipenv
+
+
+
+
+    
