@@ -6,6 +6,7 @@
 #Create virtual environment with pipenv
 ###we should follow this doc
 #### write some commands
+<<<<<<< HEAD
  ##pipenv install Command  
      -  pip install pipenv
 
@@ -13,3 +14,8 @@
 
 
     
+=======
+   pipenv install Command  
+     - pip install pipenv
+    
+>>>>>>> 080d35cc66475c9a485e9b3934da1ad9efe2b608
