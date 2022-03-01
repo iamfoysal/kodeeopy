@@ -1,0 +1,17 @@
+{% extends 'tasks/base.html' %}
+
+{% block content %}
+    <h3>This is home page</h3>
+
+    <form action="">
+        {% csrf_token %}
+
+        {% for task in task_form %}
+            <label for="">{{task.label_tag}}</label>
+            <p>{{task}}</p>
+        {% endfor %}
+        <button type="Submit">submit</button>
+    </form>
+
+    
+{% endblock %}
